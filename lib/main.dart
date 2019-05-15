@@ -1,3 +1,4 @@
+import 'package:codemagic/home.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Demo Codemagic'),
+      home: HomePage(),
     );
   }
 }
