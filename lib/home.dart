@@ -3,8 +3,11 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text('Hello, Codemagic'),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Demo Codemagic'),
+      ),
+      body: Center(child: Text('Hello, User')),
     );
   }
 }
